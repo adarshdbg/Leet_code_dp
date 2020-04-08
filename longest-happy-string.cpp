@@ -1,3 +1,10 @@
+static const auto _____ = []()
+{
+    // fast IO code : this I understand
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    return 0;
+}();
 class Solution {
 public:
     string longestDiverseString(int a, int b, int c) {
